@@ -67,7 +67,6 @@ struct ContentView: View {
             return "Paper"
         }
     }
-    
     func reset() {
         score = 0
     }
