@@ -69,7 +69,7 @@ struct ContentView: View {
     }
     
     func reset() {
-        score = 0  
+        score = 0   
     }
 
     func gameFunction(selectedItem: GameOption) {
