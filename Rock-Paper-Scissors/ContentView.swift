@@ -67,9 +67,11 @@ struct ContentView: View {
             return "Paper"
         }
     }
+    
     func reset() {
         score = 0
     }
+    
     func gameFunction(selectedItem: GameOption) {
         if computerItem == .rock {
             if shouldWin {
